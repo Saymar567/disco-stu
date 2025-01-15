@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: green;
+	flex-direction: column;
+	gap:10px;
+	margin-bottom: 10px;
+}
+
+.card-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 15px;
+}
+.card{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: beige;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 4px 0 10px 0 black;
+	width: 250px;
+	padding: 5px 0 5px 0;
+}
+.card:hover{
+	transform: scale(1.03);
+}
+.buttons{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 10px;
+}
+.buttons a {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 3px;
+	padding: 3px;
+	color: black;
+}
+
+.form{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	background-color: cream;
+	color: green;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	gap:5px;
+}
+.searchbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	margin: 10px 0 10px 0;
+}
+
+.button-erase{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	padding: 10px 0 10px 0;
+}
