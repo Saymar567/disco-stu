@@ -22,6 +22,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="icon" type="image" href="styles/images/disco-fonografico-o-disco-vinilo_1308-121279.jpg" />
 <link rel="stylesheet" href="styles/style.css">
 <title>Disco Stu</title>
 </head>
